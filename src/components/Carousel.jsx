@@ -14,7 +14,7 @@ function Carousel() {
       },
       [
          (slider) => {
-            let timeout: ReturnType<typeof setTimeout>;
+            let timeout;
             let mouseOver = false;
             function clearNextTimeout() {
                clearTimeout(timeout);

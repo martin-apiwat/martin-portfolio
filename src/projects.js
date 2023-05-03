@@ -1,4 +1,4 @@
-export default PROJECTS = [
+const PROJECTS = [
    {
       image: "",
       name: "Slack Clone",
@@ -7,20 +7,22 @@ export default PROJECTS = [
    },
    {
       image: "",
-      name: "Slack Clone",
+      name: "Kanban",
       skills: ["React", "Express", "MongoDB", "Node.js"],
       link: "https://github.com/martin-apiwat/slack-clone",
    },
    {
       image: "",
-      name: "Slack Clone",
+      name: "Password Generator",
       skills: ["React", "Express", "MongoDB", "Node.js"],
       link: "https://github.com/martin-apiwat/slack-clone",
    },
    {
       image: "",
-      name: "Slack Clone",
+      name: "Spotify Clone",
       skills: ["React", "Express", "MongoDB", "Node.js"],
       link: "https://github.com/martin-apiwat/slack-clone",
    },
 ];
+
+export default PROJECTS;
