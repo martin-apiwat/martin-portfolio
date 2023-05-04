@@ -1,27 +1,21 @@
 const PROJECTS = [
    {
       image: "",
-      name: "Slack Clone",
-      skills: ["React", "Express", "MongoDB", "Node.js"],
-      link: "https://github.com/martin-apiwat/slack-clone",
-   },
-   {
-      image: "",
       name: "Kanban",
-      skills: ["React", "Express", "MongoDB", "Node.js"],
-      link: "https://github.com/martin-apiwat/slack-clone",
-   },
-   {
-      image: "",
-      name: "Password Generator",
-      skills: ["React", "Express", "MongoDB", "Node.js"],
-      link: "https://github.com/martin-apiwat/slack-clone",
+      skills: ["TypeScript", "React", "SCSS"],
+      link: "https://github.com/martin-apiwat/kanban-board",
    },
    {
       image: "",
       name: "Spotify Clone",
-      skills: ["React", "Express", "MongoDB", "Node.js"],
-      link: "https://github.com/martin-apiwat/slack-clone",
+      skills: ["JavaScript", "Next.js", "Tailwind", "Spotify-API"],
+      link: "https://github.com/martin-apiwat/spotify-clone",
+   },
+   {
+      image: "",
+      name: "Klarna Checkout",
+      skills: ["JavaScript", "Express", "Node.js"],
+      link: "https://github.com/martin-apiwat/Klarna-Checkout",
    },
 ];
 

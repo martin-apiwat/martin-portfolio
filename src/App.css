@@ -72,3 +72,32 @@ ul {
    justify-content: center;
    align-items: center;
 }
+
+.projects {
+   display: flex;
+   justify-content: space-evenly;
+   gap: 20px;
+}
+
+.card {
+   height: 300px;
+   width: 200px;
+   background-color: #1a1a1a;
+   display: flex;
+   flex-direction: column;
+}
+
+.name {
+   font-size: 20px;
+   font-weight: 300;
+}
+
+.skills {
+   font-size: 12px;
+   font-weight: 200;
+}
+
+.image {
+   filter: invert(50%);
+   height: 18px;
+}

@@ -6,7 +6,7 @@ function Projects() {
    const renderProjects = () => {
       return PROJECTS.map((project, i) => <Project {...project} key={i} />);
    };
-   return <div>{renderProjects()}</div>;
+   return <div className="projects">{renderProjects()}</div>;
 }
 
 export default Projects;
