@@ -3,10 +3,8 @@ import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 
 function Carousel() {
-   const [ref] =
-      useKeenSlider <
-      HTMLDivElement >
-      ({
+   const [ref] = useKeenSlider(
+      {
          slides: {
             perView: 4,
          },
@@ -41,7 +39,8 @@ function Carousel() {
             slider.on("animationEnded", nextTimeout);
             slider.on("updated", nextTimeout);
          },
-      ]);
+      ]
+   );
    return (
       <div className="carousel-container">
          <div ref={ref} className="keen-slider">

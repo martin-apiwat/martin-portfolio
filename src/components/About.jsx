@@ -9,7 +9,7 @@ function About() {
             <p>Hej, mitt namn är Martin 👋</p>
             <h2>Lorem ipsum dolor sit amet.</h2>
          </div>
-         {/* <Carousel /> */}
+         <Carousel />
       </div>
    );
 }
