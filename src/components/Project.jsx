@@ -14,7 +14,7 @@ function Project({ image, name, skills, link }) {
                })}
             </div>
             <a href={link}>
-               <img className="github" src="./img/github.svg" alt="" />
+               <img className="github-logo" src="./img/github.svg" alt="" />
             </a>
          </div>
       </div>

@@ -6,7 +6,7 @@ function Carousel() {
    const [ref] = useKeenSlider(
       {
          slides: {
-            perView: 4,
+            perView: 7,
          },
          loop: true,
       },

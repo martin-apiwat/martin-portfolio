@@ -39,6 +39,14 @@ ul {
    margin: 50px 0px;
 }
 
+.image-text > h2 {
+   font-size: 25px;
+   font-weight: 300;
+   text-align: center;
+   width: 80%;
+   color: rgba(255, 255, 255, 0.5);
+}
+
 .profile-pic {
    width: 150px;
    height: 150px;
@@ -112,6 +120,12 @@ ul {
    flex-wrap: wrap;
 }
 
+.github-logo {
+   filter: invert(0.4);
+   height: 18px;
+   width: 18px;
+}
+
 .main-container {
    display: flex;
    flex-direction: column;
@@ -131,8 +145,8 @@ ul {
    gap: 50px;
 }
 
-.contact-container > h1 {
-   font-size: 30px;
+.contact-container > h2 {
+   font-size: 20px;
    font-weight: 300;
    text-align: center;
    width: 80%;

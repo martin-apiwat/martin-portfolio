@@ -7,7 +7,10 @@ function About() {
          <div className="image-text">
             <div className="profile-pic"></div>
             <p>Hej, mitt namn är Martin 👋</p>
-            <h2>Lorem ipsum dolor sit amet.</h2>
+            <h2>
+               Bakgrund inom teknisk support och customer success som nu bygger
+               en karriär som utvecklare
+            </h2>
          </div>
          <Carousel />
       </div>

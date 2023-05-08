@@ -4,11 +4,11 @@ function Navbar() {
    return (
       <div className="nav-container">
          <div className="navbar">
-            <div className="contact">Get in touch with me</div>
+            <div className="contact">Kontakta mig</div>
             <ul>
-               <li>About me</li>
-               <li>Projects</li>
-               <li>Contact</li>
+               <li>Om mig</li>
+               <li>Projekt</li>
+               <li>Kontakt</li>
             </ul>
          </div>
       </div>
