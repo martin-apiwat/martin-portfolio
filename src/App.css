@@ -62,6 +62,7 @@ ul {
    border-style: solid;
    border-width: 1px 0px 1px 0px;
    border-color: #242424;
+   cursor: grab;
 }
 
 .about-container {

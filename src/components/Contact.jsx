@@ -4,10 +4,7 @@ import MailIcon from "../assets/mail.svg";
 const Contact = () => {
    return (
       <div className="contact-container">
-         <h2>
-            Öppen för nya utmaningar. Hör av dig så vi kan prata mer om hur jag
-            kan bidra med värde!
-         </h2>
+         <h2>Söker ni förstärking i ert team?</h2>
          <button
             onClick={() => {
                //detect if user has mail client
