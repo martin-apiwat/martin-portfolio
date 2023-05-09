@@ -3,7 +3,7 @@ import Carousel from "./Carousel";
 
 function About() {
    return (
-      <div className="about-container">
+      <div className="about-container" id="about">
          <div className="image-text">
             <div className="profile-pic"></div>
             <p>Hej, mitt namn är Martin 👋</p>

@@ -3,6 +3,11 @@
    justify-content: center;
    align-items: center;
    padding: 15px;
+   position: fixed;
+   width: 100%;
+   background: #1a1a1a;
+   border-bottom: 1.5px solid #242424;
+   z-index: 999;
 }
 
 .navbar {
@@ -10,10 +15,8 @@
    display: flex;
    justify-content: space-between;
    align-items: center;
-   padding-bottom: 15px;
-   border-bottom: 1.5px solid #242424;
    font-weight: 200;
-   font-size: 14px;
+   font-size: 12px;
 }
 
 .contact:hover,
@@ -69,6 +72,7 @@ ul {
    display: flex;
    flex-direction: column;
    gap: 50px;
+   margin-top: 50px;
 }
 
 .keen-slider {
@@ -104,6 +108,8 @@ ul {
    flex-direction: column;
    gap: 10px;
    padding: 10px;
+   height: 100%;
+   justify-content: space-between;
 }
 
 .name {
@@ -133,10 +139,17 @@ ul {
    gap: 50px;
 }
 
+.contact {
+   font-size: 14px;
+}
+
+.menu-items {
+   display: flex;
+   gap: 25px;
+}
+
 .contact-container {
-   border-color: #242424;
-   border-top: 1px solid;
-   border-bottom: 1px solid;
+   border-top: 2px solid #242424;
    padding: 50px 0px;
    display: flex;
    justify-content: center;
@@ -154,7 +167,13 @@ ul {
    color: rgba(255, 255, 255, 0.6);
 }
 
-.contact-container > button {
+.contact-content {
+   display: flex;
+   flex-direction: row-reverse;
+   gap: 50px;
+}
+
+.contact-content > button {
    font-size: 16px;
    font-weight: 300;
    fill: #9a9a9a;
@@ -171,7 +190,7 @@ ul {
    cursor: pointer;
 }
 
-.contact-container > button > img {
+.contact-content > button > img {
    width: 20px;
    height: 20px;
    filter: invert(0.5);

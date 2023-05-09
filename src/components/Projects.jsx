@@ -8,7 +8,11 @@ function Projects() {
    const renderProjects = () => {
       return PROJECTS.map((project, i) => <Project {...project} key={i} />);
    };
-   return <div className="projects">{renderProjects()}</div>;
+   return (
+      <div className="projects" id="projects">
+         {renderProjects()}
+      </div>
+   );
 }
 
 export default Projects;
