@@ -1,12 +1,13 @@
 import React from "react";
 import Project from "./Project";
 import PROJECTS from "../projects";
+import ProjectCard from "./ProjectCard";
 
 console.log(PROJECTS);
 
 function Projects() {
    const renderProjects = () => {
-      return PROJECTS.map((project, i) => <Project {...project} key={i} />);
+      return PROJECTS.map((project, i) => <ProjectCard {...project} key={i} />);
    };
    return (
       <div className="projects" id="projects">

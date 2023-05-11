@@ -1,22 +1,28 @@
 .nav-container {
    display: flex;
-   justify-content: center;
-   align-items: center;
-   padding: 15px;
+   padding: 15px 0px;
    position: fixed;
+   right: 0;
    width: 100%;
    background: #1a1a1a;
    border-bottom: 1.5px solid #242424;
    z-index: 999;
 }
 
+.macs-container {
+   margin: auto;
+   max-width: 1280px;
+}
+
 .navbar {
-   width: 80%;
+   width: 100%;
    display: flex;
    justify-content: space-between;
    align-items: center;
    font-weight: 200;
    font-size: 12px;
+   margin: auto;
+   max-width: 1280px;
 }
 
 .contact:hover,
@@ -39,14 +45,14 @@ ul {
    flex-direction: column;
    text-align: center;
    gap: 20px;
-   margin: 50px 0px;
+   min-height: 70vh;
 }
 
 .image-text > h2 {
    font-size: 25px;
    font-weight: 300;
    text-align: center;
-   width: 80%;
+   max-width: 500px;
    color: rgba(255, 255, 255, 0.5);
 }
 
@@ -60,6 +66,7 @@ ul {
 
 .carousel-container {
    width: 100%;
+   position: relative;
    height: 150px;
    background-color: #1a1a1a;
    border-style: solid;
@@ -87,9 +94,13 @@ ul {
 }
 
 .projects {
+   margin: auto;
+   max-width: 1280px;
    display: flex;
    justify-content: center;
-   gap: 10px;
+   align-items: center;
+   gap: 50px;
+   flex-direction: column;
 }
 
 .card {
@@ -136,7 +147,9 @@ ul {
 .main-container {
    display: flex;
    flex-direction: column;
-   gap: 50px;
+   gap: 200px;
+   max-width: 1280px;
+   margin: auto;
 }
 
 .contact {
@@ -171,6 +184,20 @@ ul {
    display: flex;
    flex-direction: row-reverse;
    gap: 50px;
+}
+
+/* mediaqueries for small screen 640px for contact-content */
+
+@media (max-width: 640px) {
+   .contact-content {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .contact-content p {
+      text-align: center;
+   }
 }
 
 .contact-content > button {
