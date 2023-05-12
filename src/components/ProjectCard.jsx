@@ -4,7 +4,7 @@ const ProjectCard = ({ image, name, skills, link }) => {
    return (
       <div className="ProjectCard">
          <div className="ProjectCard__image">
-            <img src={image} width={"100%"} alt="name" />
+            <img src={image} alt="name" />
          </div>
          <div className="ProjectCard__details">
             <h2 className="ProjectCard__title">{name}</h2>
