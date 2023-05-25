@@ -189,18 +189,6 @@ ul {
 
 /* mediaqueries for small screen 640px for contact-content */
 
-@media (max-width: 640px) {
-   .contact-content {
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-   }
-
-   .contact-content p {
-      text-align: center;
-   }
-}
-
 .contact-content > button {
    font-size: 16px;
    font-weight: 300;
@@ -222,4 +210,24 @@ ul {
    width: 20px;
    height: 20px;
    filter: invert(0.5);
+}
+
+@media (max-width: 640px) {
+   .main-container {
+      padding: 0 20px;
+   }
+
+   .contact-content {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+   }
+
+   .contact-content p {
+      text-align: center;
+   }
+
+   .projects {
+      gap: 100px;
+   }
 }

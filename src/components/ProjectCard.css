@@ -41,3 +41,22 @@
    gap: 10px;
    justify-content: flex-end;
 }
+
+@media (max-width: 640px) {
+   .ProjectCard {
+      grid-template-rows: repeat(6, 1fr); /* changed to grid-template-rows */
+   }
+
+   .ProjectCard__details {
+      text-align: left;
+
+      grid-area: -1 / -1 / -7 / 1; /* updated to span rows instead of columns */
+   }
+
+   .ProjectCard__image {
+      display: none;
+   }
+   .ProjectCard__skills {
+      justify-content: flex-start;
+   }
+}

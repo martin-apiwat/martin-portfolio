@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { useKeenSlider } from "keen-slider/react";
 import "keen-slider/keen-slider.min.css";
 
@@ -6,7 +6,20 @@ function Carousel() {
    const [ref] = useKeenSlider(
       {
          slides: {
-            perView: 7,
+            perView: () => {
+               const windowWidth = window.innerWidth;
+               if (windowWidth > 1024) {
+                  return 7;
+               } else if (windowWidth > 768) {
+                  return 6;
+               } else if (windowWidth > 600) {
+                  return 5;
+               } else if (windowWidth > 400) {
+                  return 4;
+               } else if (windowWidth > 300) {
+                  return 2;
+               }
+            },
          },
          loop: true,
       },
