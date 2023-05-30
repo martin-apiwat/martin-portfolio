@@ -42,6 +42,12 @@
    justify-content: flex-end;
 }
 
+.github-logo {
+   filter: invert(0.4);
+   height: 18px;
+   width: 18px;
+}
+
 @media (max-width: 640px) {
    .ProjectCard {
       grid-template-rows: repeat(6, 1fr); /* changed to grid-template-rows */
