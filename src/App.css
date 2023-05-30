@@ -1,17 +1,12 @@
 .nav-container {
    display: flex;
-   padding: 15px 0px;
+   padding: 15px 20px;
    position: fixed;
    right: 0;
    width: 100%;
-   background: #1a1a1a;
+   background: #1a1a1aeb;
    border-bottom: 1.5px solid #242424;
    z-index: 999;
-}
-
-.macs-container {
-   margin: auto;
-   max-width: 1280px;
 }
 
 .navbar {
@@ -21,8 +16,8 @@
    align-items: center;
    font-weight: 200;
    font-size: 16px;
-   margin: auto;
    max-width: 1280px;
+   margin: auto;
 }
 
 .contact:hover,
@@ -151,6 +146,7 @@ ul {
    gap: 200px;
    max-width: 1280px;
    margin: auto;
+   padding: 0px 20px;
 }
 
 .contact {
