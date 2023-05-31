@@ -8,8 +8,6 @@ const Contact = () => {
          <div className="contact-content">
             <button
                onClick={() => {
-                  //detect if user has mail client
-
                   window.open("mailto:martin.apiwat@gmail.com");
                }}
             >

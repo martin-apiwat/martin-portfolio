@@ -4,7 +4,14 @@ function Navbar() {
    return (
       <div className="nav-container">
          <div className="navbar">
-            <div className="contact">Kontakta mig</div>
+            <div
+               className="contact"
+               onClick={() => {
+                  window.open("mailto:martin.apiwat@gmail.com");
+               }}
+            >
+               Kontakta mig
+            </div>
             <ul className="menu-items">
                <li
                   onClick={() =>
