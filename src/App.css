@@ -55,7 +55,7 @@ ul {
    width: 150px;
    height: 150px;
    border-radius: 50%;
-   background-image: url("./img/martin.png");
+   background-image: url("./assets/martin.png");
    background-size: cover;
 }
 

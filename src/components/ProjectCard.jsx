@@ -1,4 +1,5 @@
 import "./ProjectCard.css";
+import github from "../assets/github.svg";
 
 const ProjectCard = ({ image, name, skills, link, info }) => {
    return (
@@ -15,7 +16,7 @@ const ProjectCard = ({ image, name, skills, link, info }) => {
                })}
             </div>
             <a href={link}>
-               <img className="github-logo" src="./img/github.svg" alt="" />
+               <img className="github-logo" src={github} alt="" />
             </a>
          </div>
       </div>
