@@ -6,7 +6,7 @@ const PROJECTS = [
    {
       image: kanban,
       name: "Kanban",
-      info: "Jag har byggt en responsiv Kanban tavla med drag and drop funktion.",
+      info: "Jag har byggt en responsiv Kanban tavla med drag and drop funktion. Man kan lägga till nya tickets, välja vilken fas den är i, samt flytta tickets mellan faserna.",
       skills: ["TypeScript", "React", "SCSS"],
       link: "https://github.com/martin-apiwat/kanban-board",
    },
@@ -20,7 +20,7 @@ const PROJECTS = [
    {
       image: klarna,
       name: "Klarna Checkout",
-      info: "Jag har byggt en Klarna Checkout med hjälp av Klarnas API dokumentation som kan användas som en fristående betalningsportal och integreras i andra e-handelssidor",
+      info: "Jag har byggt en Klarna Checkout med hjälp av Klarnas API dokumentation som kan användas som en fristående betalningsportal och integreras i andra e-handelssidor.",
       skills: ["JavaScript", "Express", "Node.js"],
       link: "https://github.com/martin-apiwat/Klarna-Checkout",
    },
